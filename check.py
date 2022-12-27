@@ -1,23 +1,14 @@
-
-print("Content-Type: text/html")
-print()
-print('''<!doctype html>
-<html>
-<head>
-  <title>About Python</title>
-  <meta charset="utf-8">
-</head>
-<body>
-  <h1><a href="index.html">Python</a></h1>
-  <ol>
-    <li><a href="html.html">HTML</a></li>
-    <li><a href="css.html">CSS</a></li>
-    <li><a href="javascript.html">JavaScript</a></li>
-    <li><a href="python.html">Python</a></li>
-  </ol>
-  <h2>Python</h2>
-  <p>Python is a programming language that lets you work more quickly and integrate your systems more effectively.
-You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs.</p>
-</body>
-</html>
-''')
+student_list = [2342,3433,1234]
+teacher_list = [1231, 2333]
+work_list = ['eat']
+while True:
+    input_num = int(input('please enter your last 4 numbers'))
+    print(input_num)
+    if input_num in student_list:
+        print('Welcome')
+        break
+    elif input_num in teacher_list:
+        print('Your work is {}'.format(worklist[0]))
+        break
+    else:
+        print('I think your number is wrong, try again')
